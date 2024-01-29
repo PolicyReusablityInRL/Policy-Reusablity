@@ -101,5 +101,5 @@ for i, n in enumerate(synthetic_reward):
 plot_speedup(csv_file_name, header[0], header[1], header[2], header[3])
 print("Number of Synthetic Rewards: " + str(synthetic_reward))
 print("Total time for ExNonZeroDiscount: " + str(times_ExNonZeroDiscount))
-print("Total time for greedy-k algorithm: " + str(times_train_scratch))
+print("Total time for train from scratch algorithm: " + str(times_train_scratch))
 print("Speedups: " + str(speedups))
